@@ -6,7 +6,7 @@ interface NavbarProps {}
 export const Navbar: React.FC<NavbarProps> = ({}) => {
   return (
     <div className="flex bg-slate-700 p-3 text-white">
-      <div className="">Name</div>
+      <div className="">Pheonix Games</div>
 
       <div className="ml-auto flex font-medium">
         <Link href={"/"}>
