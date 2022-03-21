@@ -1,6 +1,9 @@
+import { useRouter } from "next/router";
 import { Navbar } from "../components/Navbar";
 
 const About = () => {
+  const router = useRouter();
+
   return (
     <div className="bg-black text-white min-h-screen text-center">
       <Navbar />
@@ -26,7 +29,12 @@ const About = () => {
               <h2 className="text-portocaliu text-xl mb-4">Scipex</h2>
               <p className="text-lg">Developer</p>
               <p className="">Nu am uitat niciodata ; la final de rand.</p>
-              <button className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black">
+              <button
+                className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black"
+                onClick={() => {
+                  router.push("mailto:scipex@pheonix.gq");
+                }}
+              >
                 scipex@phoenix.gq
               </button>
             </div>
@@ -41,7 +49,12 @@ const About = () => {
               <h2 className="text-portocaliu text-xl mb-4">Jeff</h2>
               <p className="text-lg">Developer</p>
               <p className="">Stiu sa programez doar in sistem binar.</p>
-              <button className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black">
+              <button
+                className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black"
+                onClick={() => {
+                  router.push("mailto:jeff@pheonix.gq");
+                }}
+              >
                 jeff@phoenix.gq
               </button>
             </div>
@@ -58,7 +71,12 @@ const About = () => {
               <p className="">
                 Am cumparat un martisor cu 8 lei in loc de 10 lei.
               </p>
-              <button className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black">
+              <button
+                className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black"
+                onClick={() => {
+                  router.push("mailto:piscot@pheonix.gq");
+                }}
+              >
                 piscot@phoenix.gq
               </button>
             </div>
@@ -75,7 +93,12 @@ const About = () => {
               <p className="">
                 Repar calculatoare de dinainte sa invat sa merg.
               </p>
-              <button className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black">
+              <button
+                className="mt-4 bg-portocaliu px-2 py-1 mb-2 rounded-md text-black"
+                onClick={() => {
+                  router.push("mailto:mr.ghe@phoenix.gq");
+                }}
+              >
                 mr.ghe@phoenix.gq
               </button>
             </div>

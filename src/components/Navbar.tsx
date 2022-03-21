@@ -1,9 +1,12 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
 interface NavbarProps {}
 
 export const Navbar: React.FC<NavbarProps> = ({}) => {
+  const router = useRouter();
+
   return (
     <div className="flex bg-negru p-3 text-white border-b-2 border-accent font-medium text-xl">
       <div className="ml-5">Pheonix</div>
@@ -19,7 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
             Despre Noi
           </div>
         </Link>
-        <Link href={"/contact"}>
+        <Link href={"mailto:contact@pheonix.gq"}>
           <div className="mr-3 hover:underline hover:text-portocaliu">
             Contact
           </div>

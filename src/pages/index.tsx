@@ -16,9 +16,16 @@ const Home: NextPage = () => {
         <p className="mx-20 text-white py-4 text-center text-xl">
           Dorim sa oferim oportunitatea tinerilor pasionați de a crea jocuri
           video și nu numai de a-și face cunoscute creațiile și, de asemenea, sa
-          poata castiga din munca lor. Acest proiect are ca scop promovarea
-          jocurilor acestora. Pentru început, targetul pe care ni l-am propus
-          este de 10 jocuri/luna, urmand apoi sa crească împreună cu firma.
+          poata castiga din munca lor.
+        </p>
+        <p className="mx-20 text-white py-4 text-center text-xl">
+          Oferim un mod simplu de publicare a jocurilor, monetizarea prin
+          reclame si achizitii in aplicatie, marketing eficient si transparenta
+          completa cu profiturile.
+        </p>
+        <p className="mx-20 text-white py-4 text-center text-xl">
+          Pentru început, targetul pe care ni l-am propus este de 5 jocuri/luna,
+          urmand apoi sa crească împreună cu firma.
         </p>
       </div>
 
