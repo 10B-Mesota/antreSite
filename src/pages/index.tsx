@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         </div>
         <div className="container right">
           <div className="content">
-            <h2>Q4 2026</h2>
+            <h2 className="text-portocaliu font-semibold">Q4 2026</h2>
             <p>
               La 4 ani dupa infiintarea companiei consideram ca avem destula
               experienta in creerea de jocuri si imbunatatirea lor incat sa
