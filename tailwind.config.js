@@ -8,6 +8,12 @@ module.exports = {
       backgroundImage: {
         test: "url('/test.jpg')",
       },
+      colors: {
+        portocaliu: "#ffa31a",
+        gri: "#808080",
+        accent: "#292929",
+        negru: "#1b1b1b",
+      },
     },
   },
   plugins: [],

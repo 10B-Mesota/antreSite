@@ -5,24 +5,24 @@ interface NavbarProps {}
 
 export const Navbar: React.FC<NavbarProps> = ({}) => {
   return (
-    <div className="flex bg-slate-700 p-3 text-white">
-      <div className="">Pheonix Games</div>
+    <div className="flex bg-negru p-3 text-white border-b-2 border-accent">
+      <div className="text-portocaliu">Pheonix Games</div>
 
       <div className="ml-auto flex font-medium">
         <Link href={"/"}>
-          <div className="mr-3 hover:underline">Home</div>
+          <div className="mr-3 hover:underline">Acasa</div>
         </Link>
         <Link href={"/games"}>
-          <div className="mr-3 hover:underline">Games</div>
+          <div className="mr-3 hover:underline">Jocuri</div>
         </Link>
         <Link href={"/about"}>
-          <div className="mr-3 hover:underline">About Us</div>
+          <div className="mr-3 hover:underline">Despre Noi</div>
         </Link>
         <Link href={"/contact"}>
           <div className="mr-3 hover:underline">Contact</div>
         </Link>
         <Link href={"/pricing"}>
-          <div className="mr-3 hover:underline">Pricing</div>
+          <div className="mr-3 hover:underline">Pret</div>
         </Link>
       </div>
     </div>
