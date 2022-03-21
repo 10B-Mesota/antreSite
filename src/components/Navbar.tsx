@@ -5,10 +5,10 @@ interface NavbarProps {}
 
 export const Navbar: React.FC<NavbarProps> = ({}) => {
   return (
-    <div className="flex bg-negru p-3 text-white border-b-2 border-accent">
-      <div className="text-portocaliu">Pheonix Games</div>
-
-      <div className="ml-auto flex font-medium">
+    <div className="flex bg-negru p-3 text-white border-b-2 border-accent font-medium">
+      Pheonix
+      <div className="text-portocaliu ml-2">Games</div>
+      <div className="ml-auto flex">
         <Link href={"/"}>
           <div className="mr-3 hover:underline">Acasa</div>
         </Link>
