@@ -5,7 +5,7 @@ import { Navbar } from "../components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-negru h-screen">
+    <div className="bg-black h-screen">
       <Head>
         <title>Proiect Antre</title>
         <link rel="icon" href="/favicon.ico" />
