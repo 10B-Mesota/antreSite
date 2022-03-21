@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
-      <div className="bg-negru">
+      <div className="">
         <p className="mx-10 text-white py-4">
           Dorim sa oferim oportunitatea tinerilor pasionați de a crea jocuri
           video și nu numai de a-și face cunoscute creațiile și, de asemenea, sa
