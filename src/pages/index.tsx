@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <Navbar />
       <div className="">
-        <p className="mx-10 text-white py-4">
+        <p className="mx-20 text-white py-4 text-center text-xl">
           Dorim sa oferim oportunitatea tinerilor pasionați de a crea jocuri
           video și nu numai de a-și face cunoscute creațiile și, de asemenea, sa
           poata castiga din munca lor. Acest proiect are ca scop promovarea
@@ -22,6 +22,9 @@ const Home: NextPage = () => {
         </p>
       </div>
 
+      <div className="text-portocaliu font-bold text-2xl text-center mt-2">
+        Roadmap
+      </div>
       <div className="timeline text-white">
         <div className="container left">
           <div className="content">
