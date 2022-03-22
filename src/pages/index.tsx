@@ -39,8 +39,8 @@ const Home: NextPage = () => {
             <p>
               Primele 6 luni compania isi va folosi toate resursele pentru a
               ajuta la dezvoltarea proiectelor mici. Dorim ca produsele noastre
-              sa aiba o calitate superioara pentru ca consumatorii sa se bucure
-              de experiente inedite.
+              sa aiba o calitate superioara astfel incat consumatorii sa se
+              bucure de experiente inedite.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
             <h2 className="text-portocaliu font-semibold">Q1 2028</h2>
             <p>
               In aceasta perioada vom incerca sa integram pentru prima data
-              tehnologia de tip blockchain. Acesta vine la pachet cu un sistem
+              tehnologia de tip blockchain. Aceasta vine la pachet cu un sistem
               mult mai usor de efectuat plati si smart contracts prin care
               jucatorii se vor bucura de o experienta mult mai personala.
             </p>

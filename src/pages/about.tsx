@@ -66,7 +66,7 @@ const About = () => {
               className="max-h-20 mx-auto rounded-full w-20 mt-2"
             />
             <div className="">
-              <h2 className="text-portocaliu text-xl mb-4">Piscot</h2>
+              <h2 className="text-portocaliu text-xl mb-4">Pisicot</h2>
               <p className="text-lg">Director de marketing</p>
               <p className="">
                 Am cumparat un martisor cu 8 lei in loc de 10 lei.
